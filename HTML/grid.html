@@ -52,6 +52,7 @@
             background-color: rgb(224, 224, 224);
             padding: 12px;
             border-color:white ;
+            border-radius: 1rem;
         }
         .nav2{
             height: 3rem;
@@ -63,6 +64,56 @@
             justify-content: space-around;
             height: inherit;
             align-items: center;
+        }
+        .hero{
+            width: 100%;
+            height: 82vh;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: center;
+            
+
+        }
+        .main{
+            width: 75%;
+            height: 60vh;
+            /* background-color: rgb(156, 68, 68); */
+            margin: 2rem;
+            display: grid;
+            grid-template-rows: repeat(4,1fr);
+            grid-template-columns: 2fr 1fr;
+            grid-column-gap: 1rem;
+            grid-row-gap: 1rem;
+        }
+        .div1{
+            /* background-color: #ff4757; */
+            grid-column: 1/2;
+            grid-row: 1/2;
+            display: flex;
+            justify-content: center;
+            align-self: flex-end;
+            padding: 30px;
+            gap: 1rem;
+        }
+        .div2{
+            background-color: #ff4757;
+            grid-column: 2/3;
+            grid-row: 1/3;
+        }
+        .div3{
+            background-color: #ff4757;
+            grid-column: 1/2;
+            grid-row: 2/4;
+        }
+        .div4{
+            background-color: #ff4757;
+            grid-column: 2/3;
+            grid-row: 3/4;
+        }
+        .div5{
+            background-color: #ff4757;
+            grid-column: 1/-1;
+            grid-row: 4/5;
         }
     </style>
 </head>
@@ -105,6 +156,91 @@
             <p>Body Care</p>
             <p>Gifts</p>
             <p>Sales & Offer</p>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="main">
+            <div class="div1" style="border: 1px solid black">
+                <div>
+                the semaphore credit card program
+                <br>
+                <i class="fa-solid fa-credit-card"></i>
+                save $21.5 on this order when you open and use either credit card today.
+                <p style="color: gray;">*subject to credit approval Exclusive apply.</p>
+                </div>
+                <div>  
+                    <button>see details</button>
+                </div>
+            </div>
+            <div class="div2">
+                <div>
+                    <div>
+                        <p>Merchendise Subtotal </p>
+                        <p>$87.00</p>
+                    </div>
+                    <div>
+                        <p>Shipping And handling </p>
+                        <p>$00.00</p>
+                    </div>
+                </div>
+                <div>
+                    <p><b>Estimated Total</b></p>
+                    <p><b>$87.00</b></p>
+                </div>
+                <div>
+                    <button>Checkout Shippedd Items</button>
+                </div>
+            </div>
+            <div class="div3">
+                <div class="div3-main">
+                    <div>
+                        <div>
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+                        <div>
+                            you now qualify for the free shipping
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <b>get 2 free samples</b>
+                        </div>
+                        <div>
+                            <div>want free shipping</div>
+                            <button>Sign In</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div><img src="" alt=""></div>
+                        <div>
+                            <b>MAKE UP BY MARIO</b>
+                            Awakening Concealer
+                            SIZE0.2 oz /5.8ml . item 2682011
+                            color: 320
+                        </div>
+                        <div>
+                            <div>
+                                <label for="quantity">Quantity</label>
+                                <select name="quantity" id="quantity">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                            <div>
+                                <button>Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div4">
+                <div>view featured offer</div>
+                <input type="text" name="" id="" placeholder="Promo or reward code">
+            </div>
+            <div class="div5"></div>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/de83210c92.js" crossorigin="anonymous"></script>
