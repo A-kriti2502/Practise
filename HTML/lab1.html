@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB1</title>
+    <style>
+      /* this is for css  */
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+        color: black;
+        }
+      main{
+        width: 75%;
+        margin: 50px auto;
+        display: grid;
+        color: white;
+        grid-template-rows: 60px  100px 200px 60px;
+        grid-template-columns: repeat(3,1fr) 150px;
+        grid-gap: 20px;
+      }
+      .div1{background-color: #g;
+        grid-column: 1/-1; padding: 10px 0;}
+      .div2{background-color: #2ed573;}
+      .div3{background-color: #1e90ff;}
+      .div4{background-color: #5352ed;}
+      .div5{background-color: #2f3542;
+        grid-row: 2/4;
+        grid-column: 4/5;
+        color: white;}
+      .div6{background-color: #ffa502;
+        grid-column: 1/4; padding: 65px 0 ; font-size: large;}
+      .div7{background-color: #00d2d3;
+        grid-column: 1/-1;}
+    </style>
+</head>
+<body>
+    <main>
+        <div class="div1"> <h1>Header</h1> </div>
+        <div class="div2"> box1 </div>
+        <div class="div3"> box2 </div>
+        <div class="div4"> box3 </div>
+        <div class="div5"> <img src="marvel_logo.png" alt="this ia a image" style="width: 140px; height: 60px; "> </div>
+        <div class="div6"> 
+            <p>Lorem <b>ipsum</b> <strong>dolor</strong> <i>sit</i>  <em>amet</em> <mark>amet</mark> <del>consectetur</del>  
+            <ins>adipisicing</ins> elit.<br>
+            <sub>Non</sub>  <sup>repellat</sup> reprehenderit unde excepturi veritatis officiis atque <br>
+            numquam incidunt, dolore corporis consectetur, fugit at, tenetur labore.<br>
+        </p>
+        </div>
+        <div class="div7"> footer </div>
+        <img src="" alt="">
+        <a href=""></a>
+        
+
+    </main>
+</body>
+</html>
