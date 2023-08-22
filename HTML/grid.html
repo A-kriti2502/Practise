@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .offer{
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:3rem;
+            background-color: rgb(16, 170, 170);
+        }
+        .logo{
+            font-family: 'Tulpen One', cursive;
+            font-size: 3rem;
+        }
+        .nav1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 5rem;
+            /* background-color: blue; */
+        }
+        .icon-shop{
+            display: flex;
+            padding: 10px;
+        }
+        .nav1-shop{
+            display: flex;
+            gap: 0.5rem;
+        }
+        .nav1-people{
+            display: flex;
+            gap: 0.5rem;
+        }
+        .nav1-bill{
+            display: flex;
+            gap: 0.5rem;
+        }
+        input{
+            background-color: rgb(224, 224, 224);
+            padding: 12px;
+            border-color:white ;
+        }
+        .nav2{
+            height: 3rem;
+            background-color: black;
+            color: aliceblue;
+        }
+        .nav2-main{
+            display: flex;
+            justify-content: space-around;
+            height: inherit;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- offers -->
+    <div class="offer"> <b>App Exclusive : Choose up to 3 FREE trial sizes </b> with $25, $50, or $75 purchase. *Terms apply.<b> DOWNLOAD APP</b></div>
+    <!-- nav1 -->
+    <div class="nav1"> 
+        <h3 class="logo">AAkRiTI</h3>
+        <div>
+            <input type="text" id="Search" placeholder="Search..">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="nav1-shop">
+            <i class="fa-solid fa-shop icon-shop"></i>
+            <div>
+                <p style="font-size: 1.5rem;">stores and services</p>
+                <p style="color: grey;">choose your store</p>
+            </div> 
+        </div>
+        <div class="nav1-people">
+            <i class="fa-solid fa-people-group"></i>
+            <p>community</p>
+        </div>
+        <div class="nav1-bill">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-truck-fast"></i>
+        </div>
+    </div>
+    <!-- nav2 -->
+    <div class="nav2">
+        <div class="nav2-main">
+            <p>New</p>
+            <p>Brands</p>
+            <p>Makeup</p>
+            <p>Skincare</p>
+            <p>HairCare</p>
+            <p>Fragrance</p>
+            <p>Tools & Brushes</p>
+            <p>Body Care</p>
+            <p>Gifts</p>
+            <p>Sales & Offer</p>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/de83210c92.js" crossorigin="anonymous"></script>
+</body>
+</html>
